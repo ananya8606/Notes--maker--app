@@ -88,7 +88,7 @@ function createNote()
     count = count + 1;
     document.getElementById('closeModal').click();
   }); 
-
+ 
 let data={};
 function EditNote(event) {
   event.preventDefault();
@@ -194,13 +194,8 @@ function showNotes(){
     noteBoxelement.innerHTML=element.innerHTML;
     notes_container.appendChild(noteBoxelement);
   });
-
+ 
 }
 showNotes();
-
-
-// we can do it same from eventlistener also---------------------->
-
-
-
  
+// we can do it same from eventlistener also---------------------->
